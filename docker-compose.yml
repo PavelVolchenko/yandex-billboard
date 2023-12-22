@@ -7,3 +7,6 @@ services:
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/yandex-billboard
+    environment:
+      - SECRET_KEY=django-insecure-^()uk$x1#hx9mpu#(51)i_wuzpbpi8_vhnlm44q59db&@hzjd0
+      - DEBUG=True
